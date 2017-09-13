@@ -1,13 +1,18 @@
 import numpy as np
 import pylab as pl
-
+#Para nombrar los vectores#
 x=[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21]
 y=[1996,1997,1998,1999,2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017]
 
-
+#Titular la grafica#
 pl.title('Braian Adair Maldonado Luna')
+#Graficar vectores con las caracteristicas que quiera#
 pl.scatter(x, y, s=60, c='b', marker='o')
+"Nombrar el eje y#
 pl.ylabel('anio')
+#Nombrar el eje x#
 pl.xlabel('edad')
+#Guardar una imagen del ejercicio hecho"
 pl.savefig('edad de Braian.png')
+#Mostrar lo programado"
 pl.show()
